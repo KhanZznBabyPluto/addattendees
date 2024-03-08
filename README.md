@@ -25,7 +25,7 @@ This script automates that process, so you can easily import multiple attendees 
 2. Download the latest version of [Selenium](https://selenium-python.readthedocs.io/installation.html).
 3. Install [ChromeDriver](https://chromedriver.chromium.org/downloads).
 4. Clone this repository to your local machine.
-5. Create a text file with all the users you wish to add to your event. See the [example file](https://github.com/tsanevp/AddAttendeesToEventBrite/blob/master/attendees_list_example.txt).
+5. Create a text file with all the users you wish to add to your event. See the [example file](https://github.com/tsanevp/AddAttendeesToEventBrite/blob/master/attendees_list_example.txt). But in order to handle csv file from gdg.community.dev you can simply import it to the folder and use csv_handler.py file.
 6. Open [AddAttendees.py](https://github.com/tsanevp/AddAttendeesToEventBrite/blob/ec2860f62701801223a1ecf22ebe0a312f8dd868/AddAttendees.py) and replace all the placeholder variables:
     * Enter your EventBrite login and password on lines 22 & 23.
     * Add your attendees to a comma-limited text file in the format `firstname,surname,email_address` (see example text file).
